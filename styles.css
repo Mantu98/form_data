@@ -246,7 +246,7 @@ form {
     height: 40%;
     margin-bottom: 1rem;
 }
-.form form .submit {
+.form form #submit {
   background-color: #08d;
   border-radius: 0.8rem;
   border: 0;
@@ -271,5 +271,28 @@ form {
     border-top: 1px solid #6c757d;
     width: 70%;
     margin-left: 15%;
-    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    /* border: 1px solid black; */
 }
+#footer .footerContent .div1 {
+    padding-top: 1rem;
+    margin-top: 3rem;
+}
+#footer .footerContent .div2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+#footer .footerContent .div2 a{
+    text-decoration: none;
+    color: #000;
+    opacity: 700;
+    padding: 5px 0;
+}
+
